@@ -1,0 +1,90 @@
+1) Посмотреть, где я 
+command : pwd
+
+2) Создать папку
+command: mkdir gitbash_test
+
+3) Зайти в папку 
+command: cd gitbash_test или cd !$
+
+4) Создать 3 папки
+command: mkdir test_folder_1 test_folder_2 test_folder_3
+
+5) Зайти в любую папку 
+command: cd test_folder_2
+
+6) Создать 5 файлов (3 txt, 2 json)
+command: touch {ball.txt,kneepads.json,crosses.txt,volleyball.json,startvolley.txt}
+
+7) Создать 3 папки 
+command: mkdir {vol_1,vol_2,vol_3}
+
+8) Вывести список содержимого папки
+command: ls
+
+9) +Открыть любой txt файл
+command: vim crosses.txt
+
+10) +написать туда что-нибудь, любой текст
+command: i
+command: Волейбол - моя жизнь.
+
+11) +Сохранить и выйти
+command: esc на клавиатуре
+command:  :wq
+
+12) Выйти из папки на уровень выше 
+command: cd .. или cd -
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку
+command: cd test_folder_2
+command: mv crosses.txt kneepads.json /d/Тестирование/Vadim_Ksendzov/gitbash_test/test_folder_3
+Одной командой, не заходя в саму папку: mv ./test_folder_2/startvolley.txt test_folder_1
+
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
+command: cp ball.txt volleyball.json /d/Тестирование/Vadim_Ksendzov/gitbash_test/test_folder_1
+
+15) Найти файл по имени
+command:  find . -name startvolley.txt
+
+16) Просмотреть содержимое в реальном времени
+command: tail -f startvolley.txt
+ввести в блокноте "Hi"
+"Hello"
+нажать Ctrl+S
+result: Hi и Hello отображаются в терминале
+
+17) Вывести несколько первых строк из текстового файла
+command: head -3 startvolley.txt
+
+18) Вывести несколько первых строк из текстового файла
+command: tail -2 startvolley.txt
+
+19) Просмотреть содержимое длинного файла
+command: less ball.txt
+
+20) Вывести дату и время:
+command: date
+
+*
+1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request
+command: curl ""http://162.55.220.72:5005/get_method?name="Zhenya"&age=25"
+result:  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    16  100    16    0     0    133      0 --:--:-- --:--:-- --:--:--   134["Zhenya","25"]
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+command: cd gitbash_test
+nano bash_script.sh
+#!/bin/bash
+cd test_foulder_1
+mkdir smile hapiness laughing
+cd hapiness
+touch love.txt friends.txt home.txt care.json hobby.json
+mkdir hate pain sadness
+ls -la
+friends.txt home.txt /d/Тестирование/Vadim_Ksendzov/gitbash_test/test_foulder_1/smile
+
+
+
+
