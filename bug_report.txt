@@ -1,1 +1,11 @@
-
+ID
+Summary
+Environment
+Description
+Preconditions
+Steps to reproduse
+Expected result
+Actual result
+Severity
+Priority
+Attacments
