@@ -1,1 +1,25 @@
+{
+	"ID": 1,
+	"Summary": "The 'Undo' button is disabled after clicking the 'Save' button ",
+	"Environment": 
+	[
+		"Google Chrome v. 94.0",
+		"Mozilla Firefox v. 96",
+		"Microsoft Edge v. 11"
+	],
+	"Preconditions": "The User B was created",
+	"Steps to reproduse": 
+	[
+		"log in under User B",
+		"select the 'User info' tab",
+		"edit the information from 'User Name' field",
+		"click the 'Save' button",
+		"navigate to the 'Undo' button"
+	],
+	"Expected result": "The 'Undo' button is activated after clicking the 'Save' button",
+	"Actual result": "The 'Undo' button is disabled after clicking the 'Save' button",
+	"Severity": "major",
+	"Priority": "medium",
+	"Attacments": "smth interesting"
 
+}
