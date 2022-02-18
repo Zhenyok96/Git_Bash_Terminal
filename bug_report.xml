@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bug>
-   <Actual_result>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button</Actual_result>
-   <Attacments>smth_interesting</Attacments>
+   <ID>1</ID>
+   <Summary>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button </Summary>
    <Environment>
       <element_1>Google_Chrome_v._94.0</element_1>
       <element_2>Mozilla_Firefox_v._96</element_2>
       <element_3>Microsoft_Edge_v._11</element_3>
    </Environment>
-   <Expected_result>The_'Undo'_button_is_activated_after_clicking_the_'Save'_button</Expected_result>
-   <ID>1</ID>
    <Preconditions>The_User_B_was_created</Preconditions>
-   <Priority>medium</Priority>
-   <Severity>major</Severity>
    <Steps_to_reproduse>
       <element_4>log_in_under_User_B</element_4>
       <element_5>select_the_'User_info'_tab</element_5>
@@ -19,5 +15,9 @@
       <element_7>click_the_'Save'_button</element_7>
       <element_8>navigate_to_the_'Undo'_button</element_8>
    </Steps_to_reproduse>
-   <Summary>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button </Summary>
+   <Expected_result>The_'Undo'_button_is_activated_after_clicking_the_'Save'_button</Expected_result>
+   <Actual_result>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button</Actual_result>
+   <Severity>major</Severity>
+   <Priority>medium</Priority>
+   <Attachments>smth_interesting</Attachments>
 </bug>
