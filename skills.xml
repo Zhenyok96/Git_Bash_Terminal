@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+   <skills>
+      <element_1>basic_theory</element_1>
+      <element_2>client-server_architecture</element_2>
+      <element_3>HTTP</element_3>
+      <element_4>JSON</element_4>
+      <element_5>XML</element_5>
+      <element_6>API</element_6>
+      <element_7>Postman</element_7>
+      <element_8>Charles</element_8>
+      <element_9>Fiddler</element_9>
+      <element_10>DevTools</element_10>
+      <element_11>VPN</element_11>
+      <element_12>mobile_testing</element_12>
+      <element_13>XCode</element_13>
+      <element_14>Android_Studio</element_14>
+      <element_15>ADB</element_15>
+      <element_16>proxy</element_16>
+      <element_17>Git_Bash_terminal</element_17>
+      <element_18>Git_Hub</element_18>
+      <element_19>SQL</element_19>
+      <element_20>Postgres</element_20>
+      <element_21>Redis</element_21>
+      <element_22>Jmeter</element_22>
+      <element_23>Scrum_metodology</element_23>
+   </skills>
+</skills>
