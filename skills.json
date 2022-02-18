@@ -1,0 +1,27 @@
+
+{
+	"skills": ["basic_theory",
+		"client-server_architecture",
+		"HTTP",
+		"JSON",
+		"XML",
+		"API",
+		"Postman",
+		"Charles",
+		"Fiddler",
+		"DevTools",
+		"VPN",
+		"mobile_testing",
+		"XCode",
+		"Android_Studio",
+		"ADB",
+		"proxy",
+		"Git_Bash_terminal",
+		"Git_Hub",
+		"SQL",
+		"Postgres",
+		"Redis",
+		"Jmeter",
+		"Scrum_metodology"
+	]
+}
