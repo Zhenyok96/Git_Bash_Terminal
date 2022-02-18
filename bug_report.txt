@@ -1,11 +1,10 @@
-ID
-Summary
-Environment
-Description
-Preconditions
-Steps to reproduse
-Expected result
-Actual result
-Severity
-Priority
-Attacments
+1)ID: 1;
+2)Summary: The "Undo" button is disabled after clicking the "Save" button;
+3)Environment: Google Chrome v. 94.0, Mozilla Firefox v. 96, Microsoft Edge v. 11;
+4)Preconditions: The User B was created;
+5)Steps to reproduse: log in under User B, select the "User info" tab, edit the information from "User Name" field, click the "Save" button, navigate to the "Undo" button;
+6)Expected result: The "Undo" button is activated after clicking the "Save" button;
+7)Actual result: The "Undo" button is disabled after clicking the "Save" button;
+8)Severity: major;
+9)Priority: medium;
+10)Attacments.
