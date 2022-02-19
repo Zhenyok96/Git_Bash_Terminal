@@ -1,0 +1,342 @@
+TXT
+1. Создать внешний репозиторий.
+Repositories-New-Repository Name (Git_Bash_Terminal) - Public - Add a Readme file - Create repository
+
+2. Клонировать репозиторий на локальный компьютер.
+В GitBash нажала Code, скопировала ссылку https://github.com/Zhenyok96/Git_Bash_Terminal.git. На локальном компьютере создала папку Git_Terminal. Открыла в ней GitBash. В GitBash ввела clone https://github.com/Zhenyok96/Git_Bash_Terminal.git. Проверила командой ls -la наличие локального репозитория.
+
+3. Внутри локального Git_Bash_Terminal создать файл “new.txt”.
+touch new.txt
+
+4. Добавить файл под гит.
+git add new.txt
+
+5. Закоммитить файл.
+git commit -m "add 1 file"
+
+6. Отправить файл на внешний GitHub репозиторий.
+git push new.txt
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+i
+ФИО: Войтович Евгения Вячеславовна
+Возраст: 25 лет
+Количество домашних животных: 1 кот
+Будущая желаемая зарплата: от 500$
+Esc - :wq
+
+8. Отправить изменения на внешний репозиторий
+git commit -m "modified new.txt" 
+git push
+
+9. Создать файл preferences.txt.
+cat > preferences.txt
+
+10. Добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна,которую хотели бы посетить) в формате TXT.
+Favorite movie: Intouchables
+Favorite serial: The Witcher
+Favorite food: pizza
+Favorite season: spring
+The country I would like to visit: Shri-Lanka
+Ctrl+C
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat > skills.txt
+During the coursers I'll get such skills: basic theory, client-server architecture, HTTP, JSON, XML, API, Postman, Charles, Fiddler, Dev Tools, VPN, mobile testing, XCode, Android Studio, ADB, proxy, Git_Bash_terminal, Git_Hub, SQL, Postgres, Redis, Jmeter, Scrum metodology.
+
+12. Сделать коммит в одну строку.
+git add . | git commit -m "add 2 files"
+
+13.Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+14. На веб интерфейсе создать файл bug_report.txt.
+Add file - Create new file
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+Нажать Commit new file
+
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. В GitHub нажать на Edit this file.
+1)ID: 1;
+2)Summary: The "Undo" button is disabled after clicking the "Save" button;
+3)Environment: Google Chrome v. 94.0, Mozilla Firefox v. 96, Microsoft Edge v. 11;
+4)Preconditions: The User B was created;
+5)Steps to reproduse: log in under User B, select the "User info" tab, edit the in
+formation from "User Name" field, click the "Save" button, navigate to the "Undo" button;
+6)Expected result: The "Undo" button is activated after clicking the "Save" button;
+7)Actual result: The "Undo" button is disabled after clicking the "Save" button;
+8)Severity: major;
+9)Priority: medium;
+10)Attacments.
+
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажать на Commit changes
+
+18) Синхронизировать внешний и локальный репозиторий TXT.
+git pull
+
+JSON
+
+1. Создать внешний репозиторий.
+Repositories-New-Repository Name (Git_Bash_Terminal) - Public - Add a Readme file - Create repository
+
+2. Клонировать репозиторий JSON на локальный компьютер.
+git clone "link"
+
+3. Внутри локального репозитория создать файл “new.json”.
+touch new.json
+
+4. Добавить файл под гит.
+git add new.json
+
+5.Закоммитить файл.
+git commit -m "add 1 file"
+
+6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+i
+{
+        "name": "Zhenya",
+        "surname": "Voitovich",
+        "age": 25,
+        "number_of_pets": 1,
+        "future_salary": 500
+
+}
+Esc :wq
+
+8. Отправить изменения на внешний репозиторий.
+git commit -am "modified 1 file"
+git push
+
+9. Создать файл preferences.json.
+vim preferences.json
+
+10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна,которую хотели бы посетить) в формате JSON.
+vim preferences.json
+i
+{
+        "Preferences":
+
+        {
+                "movie": "Intouchables",
+                "serial": "The Witcher",
+                "food": "pizza",
+                "season": "spring",
+                "country": "Shri-Lanka"
+        }
+
+
+}
+Esc :wq
+
+11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+vim skills.json
+i
+{
+	"skills": ["basic_theory",
+		"client-server_architecture",
+		"HTTP",
+		"JSON",
+		"XML",
+		"API",
+		"Postman",
+		"Charles",
+		"Fiddler",
+		"DevTools",
+		"VPN",
+		"mobile_testing",
+		"XCode",
+		"Android_Studio",
+		"ADB",
+		"proxy",
+		"Git_Bash_terminal",
+		"Git_Hub",
+		"SQL",
+		"Postgres",
+		"Redis",
+		"Jmeter",
+		"Scrum_metodology"
+	]
+}
+Esc :wq
+
+12. Отправить сразу 2 файла на внешний репозиторий.
+git add . | git commit -m "add 2 files"
+git push
+
+13. На веб интерфейсе создать файл bug_report.json.
+Add file - Create new file
+
+14.  Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажать Commit new file
+
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+{
+	"ID": 1,
+	"Summary": "The 'Undo' button is disabled after clicking the 'Save' button ",
+	"Environment": 
+	[
+		"Google Chrome v. 94.0",
+		"Mozilla Firefox v. 96",
+		"Microsoft Edge v. 11"
+	],
+	"Preconditions": "The User B was created",
+	"Steps to reproduse": 
+	[
+		"log in under User B",
+		"select the 'User info' tab",
+		"edit the information from 'User Name'field",
+		"click the 'Save' button",
+		"navigate to the 'Undo' button"
+	],
+	"Expected result": "The 'Undo' button is activated after clicking the 'Save' button",
+	"Actual result": "The 'Undo' button is disabled after clicking the 'Save' button",
+	"Severity": "major",
+	"Priority": "medium",
+	"Attacments": "smth interesting"
+
+}
+
+16.  Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажать на Commit changes
+
+17.  Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+XML
+
+1. Создать внешний репозиторий
+Repositories-New-Repository Name (Git_Bash_Terminal) - Public - Add a Readme file - Create repository
+
+2.  Клонировать репозиторий XML на локальный компьютер.
+git clone "link"
+
+3. Внутри локального репозитория создать файл “new.xml”.
+touch new.xml
+
+4.Добавить файл под гит.
+git add new.xml
+
+5. Закоммитить файл
+git commit -m "add 1 file"
+
+6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+7.Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+i
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+   <age>25</age>
+   <first_name>Zhenya</first_name>
+   <future_salary>500</future_salary>
+   <last_name>Voitovich</last_name>
+   <number_of_pets>1</number_of_pets>
+</information>
+Esc :wq
+
+8. Отправить изменения на внешний репозиторий.
+git commit -am "modified new.xml"
+git push
+
+9. Создать файл preferences.xml
+touch preferences.xml
+
+10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате XML.
+vim preferences.xml
+i
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+   <Preferences>
+      <country>Shri-Lanka</country>
+      <food>pizza</food>
+      <movie>Intouchables</movie>
+      <season>spring</season>
+      <serial>The Witcher</serial>
+   </Preferences>
+</preferences>
+Esc :wq
+
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat > skills.xml
+      <element_4>JSON</element_4>
+      <element_5>XML</element_5>
+      <element_6>API</element_6>
+      <element_7>Postman</element_7>
+      <element_8>Charles</element_8>
+      <element_9>Fiddler</element_9>
+      <element_10>DevTools</element_10>
+      <element_11>VPN</element_11>
+      <element_12>mobile_testing</element_12>
+      <element_13>XCode</element_13>
+      <element_14>Android_Studio</element_14>
+      <element_15>ADB</element_15>
+      <element_16>proxy</element_16>
+      <element_17>Git_Bash_terminal</element_17>
+      <element_18>Git_Hub</element_18>
+      <element_19>SQL</element_19>
+      <element_20>Postgres</element_20>
+      <element_21>Redis</element_21>
+      <element_22>Jmeter</element_22>
+      <element_23>Scrum_metodology</element_23>
+   </skills>
+</skills>
+
+12. Сделать коммит в одну строку.
+git commit -m "modified 2 files"
+
+13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+14.  На веб интерфейсе создать файл bug_report.xml.
+Add file - Create new file
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажать Commit new file
+
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<bug>
+   <ID>1</ID>
+   <Summary>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button </Summary>
+   <Environment>
+      <element_1>Google_Chrome_v._94.0</element_1>
+      <element_2>Mozilla_Firefox_v._96</element_2>
+      <element_3>Microsoft_Edge_v._11</element_3>
+   </Environment>
+   <Preconditions>The_User_B_was_created</Preconditions>
+   <Steps_to_reproduse>
+      <element_4>log_in_under_User_B</element_4>
+      <element_5>select_the_'User_info'_tab</element_5>
+      <element_6>edit_the_information_from_'User_Name'_field</element_6>
+      <element_7>click_the_'Save'_button</element_7>
+      <element_8>navigate_to_the_'Undo'_button</element_8>
+   </Steps_to_reproduse>
+   <Expected_result>The_'Undo'_button_is_activated_after_clicking_the_'Save'_button</Expected_result>
+   <Actual_result>The_'Undo'_button_is_disabled_after_clicking_the_'Save'_button</Actual_result>
+   <Severity>major</Severity>
+   <Priority>medium</Priority>
+   <Attachments>smth_interesting</Attachments>
+</bug>
+
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажать на Commit changes
+
+18. Синхронизировать внешний и локальный репозиторий XML.
+git pull
+
+
+
+
+
+
+
